@@ -27,11 +27,11 @@ Everything not in this ``README`` has been written by AI, and so is very sloopy 
 
 -- Hayden
 
-/*
+<!--
 This is a markdown comment, it will not be displayed in the final render! BTHO everyone, thanks and gig'em!
 
 
 As of the last update
 Texas A&M  : 6-0
 t.u.       : 4-2
-*/
+-->
