@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LHS Pantherbots</title>
+  <meta name="description" content="LHS Pantherbot Programming Team — robotics, coding, and community" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.svg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="LHS Pantherbots logo" class="logo" />
+        <span class="brand-text">LHS Pantherbots</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn btn-ghost" aria-pressed="false">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Build. Code. Compete.</h1>
+          <p class="lead">LHS Pantherbots — the LHS robotics and programming team. We teach robotics, mentor students, and compete in regional events.</p>
+
+          <p class="cta-row">
+            <a class="btn btn-primary" href="#projects">See Projects</a>
+            <a class="btn btn-outline" href="#contact">Join Us</a>
+          </p>
+        </div>
+
+        <div class="hero-media">
+          <div class="card">
+            <img src="assets/logo.svg" alt="pantherbot" class="card-graphic" />
+            <p class="muted">Open-source club site template</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>We create autonomous and remote-controlled robots, learn programming, and collaborate with local schools and events. Students of all skill levels are welcome.</p>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Competition Bot</h3>
+            <p>High-speed drivetrain and vision-guided mechanisms. Built with modular subsystems so students can iterate quickly.</p>
+          </article>
+
+          <article class="card">
+            <h3>Community Outreach</h3>
+            <p>Workshops and demos for local middle schools and STEM fairs — teaching basics of programming and engineering.</p>
+          </article>
+
+          <article class="card">
+            <h3>Roadmap</h3>
+            <p>Next up: expanding our simulation tools and CI for robot code. Join to help design and test new features.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section container">
+      <h2>Team</h2>
+      <p>Students from all grades. Mentors and alumni help run workshops and coach for competitions.</p>
+      <div class="team-grid">
+        <figure class="person">
+          <img src="assets/logo.svg" alt="Team member" />
+          <figcaption>
+            <strong>Student Lead</strong>
+            <span class="muted">Team Captain</span>
+          </figcaption>
+        </figure>
+
+        <figure class="person">
+          <img src="assets/logo.svg" alt="Mentor" />
+          <figcaption>
+            <strong>Coach</strong>
+            <span class="muted">Faculty Mentor</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt container">
+      <h2>Contact</h2>
+      <p>Want to join or collaborate? Fill this form and we'll get back to you.</p>
+
+      <form class="contact-form" onsubmit="handleContactSubmit(event)">
+        <label for="name">Name</label>
+        <input id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Send</button>
+          <button class="btn btn-ghost" type="reset">Reset</button>
+        </div>
+
+        <p class="form-note muted">This form does not send messages by itself — configure a backend or use a form provider (Netlify Forms, Formspree, etc.).</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> LHS Pantherbots — Built with ❤️ and code.</p>
+      <p class="muted small">Hosted on GitHub Pages · Theme: lightweight</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
