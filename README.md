@@ -26,6 +26,8 @@ After cloning the repo, you are going to want to [create your own branch](https:
 
 Then, you can read and edit the code as you see fit. Be sure to check out the [issues page](https://github.com/LHSPantherbots/lhspantherbots.github.io/issues) if you need to be pointed in the direction of what needs to be done.
 
+To see a preview of the changes you made, you can right click the file named `index.html`, select `copy path` and then paste that path into your web browser of choice.
+
 After making changes, commit your changes to the branch you created, then make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to merge the branch to its parent (if you think it is approriate to do so).
 
 Here are some resources to help you out:
