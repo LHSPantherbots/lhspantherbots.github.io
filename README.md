@@ -32,6 +32,6 @@ This is a markdown comment, it will not be displayed in the final render! BTHO e
 
 
 As of the last update
-Texas A&M  : 6-0
-t.u.       : 4-2
+Texas A&M  : 7-0
+t.u.       : 5-2
 -->
