@@ -1,10 +1,10 @@
 /* Simple responsive site stylesheet with dark mode */
 :root{
-  --bg: #0f1720;
+  --bg: #000000;
   --card: #0b1220;
-  --muted: #9aa4b2;
+  /* --muted: #9aa4b2; */
   --text: #e6eef6;
-  --accent: #ff6b35;
+  --accent: #870092;
   --glass: rgba(255,255,255,0.04);
 }
 
@@ -13,7 +13,7 @@ html,body{height:100%}
 body{
   margin:0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  background:linear-gradient(180deg, var(--bg), #071023 80%);
+  background: var(--bg);
   color:var(--text);
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
@@ -41,10 +41,10 @@ body{
 .lead{color:var(--muted);margin:0 0 1rem}
 .cta-row .btn{margin-right:.5rem}
 .hero-media{width:260px}
-.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);text-align:center}
+/* .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);text-align:center} */
 .card-graphic{width:120px;height:120px}
 .section{padding:2rem 0}
-.section.alt{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+/* .section.alt{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)} */
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
 .card h3{margin-top:0}
 .team-grid{display:flex;gap:1rem;align-items:center}
