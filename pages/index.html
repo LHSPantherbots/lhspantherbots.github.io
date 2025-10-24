@@ -3,25 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LHS Pantherbots</title>
-  <meta name="description" content="LHS Pantherbot Programming Team — robotics, coding, and community" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="assets/logo.svg" />
+  <title>LHS PantherBots</title>
+  <meta name="description" content="LHS PantherBot Programming Team — robotics, coding, and community" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="assets/image.png" style="width:72px;height:auto;" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#">
-        <img src="assets/logo.svg" alt="LHS Pantherbots logo" class="logo" />
-        <span class="brand-text">LHS Pantherbots</span>
+        <img src="assets/image.png" alt="LHS PantherBots logo" class="logo" style="width:72px;height:auto;" />
+        <span class="brand-text">LHS PantherBots</span>
       </a>
 
       <nav class="nav" id="nav">
         <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
         <ul id="navMenu" class="nav-menu">
-          <li><a href="#about">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="subteams.html">Sub-Teams</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -37,7 +37,7 @@
       <div class="container hero-inner">
         <div class="hero-copy">
           <h1>Build. Code. Compete.</h1>
-          <p class="lead">LHS Pantherbots — the LHS robotics and programming team. We teach robotics, mentor students, and compete in regional events.</p>
+          <p class="lead">LHS PantherBots — the LHS robotics and programming team. We teach robotics, mentor students, and compete in regional events.</p>
 
           <p class="cta-row">
             <a class="btn btn-primary" href="#projects">See Projects</a>
@@ -47,7 +47,7 @@
 
         <div class="hero-media">
           <div class="card">
-            <img src="assets/logo.svg" alt="pantherbot" class="card-graphic" />
+            <img src="assets/PLACEHOLDER.png" alt="PantherBot" class="card-graphic" style="width:48px;height:auto;" />
             <p class="muted">Open-source club site template</p>
           </div>
         </div>
@@ -55,8 +55,16 @@
     </section>
 
     <section id="about" class="section container">
-      <h2>About</h2>
-      <p>We create autonomous and remote-controlled robots, learn programming, and collaborate with local schools and events. Students of all skill levels are welcome.</p>
+      <div class="about-grid" style="display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;">
+        <div class="about-copy" style="flex:1;min-width:100px;">
+                <h1>About Us</h1>
+          <p>We are FIRST Robotics Team #2582, the Lufkin High School Pantherbots. What started as a group of 15 daring souls in 2008 has grown into a team of 43 students ranging from freshmen to seniors united with the unique goal of participating in what is called by its creator, “a sport of the mind.”</p>
+        </div>
+
+        <div class="about-media" style="flex:0 0 400px;">
+          <img src="assets/PLACEHOLDER.png" alt="LHS PantherBots team" style="width:400px;max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />
+        </div>
+      </div></div>
     </section>
 
     <section id="projects" class="section alt">
@@ -86,7 +94,7 @@
       <p>Students from all grades. Mentors and alumni help run workshops and coach for competitions.</p>
       <div class="team-grid">
         <figure class="person">
-          <img src="assets/logo.svg" alt="Team member" />
+          <img src="assets/PLACEHOLDER.png" alt="Team member" />
           <figcaption>
             <strong>Student Lead</strong>
             <span class="muted">Team Captain</span>
@@ -94,7 +102,7 @@
         </figure>
 
         <figure class="person">
-          <img src="assets/logo.svg" alt="Mentor" />
+          <img src="assets/PLACEHOLDER.png" alt="Mentor" />
           <figcaption>
             <strong>Coach</strong>
             <span class="muted">Faculty Mentor</span>
@@ -129,11 +137,11 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> LHS Pantherbots — Built with ❤️ and code.</p>
+      <p>&copy; <span id="year"></span> LHS PantherBots — Built with ❤️ and robot grease.</p>
       <p class="muted small">Hosted on GitHub Pages · Theme: lightweight</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>
