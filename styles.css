@@ -52,8 +52,6 @@ body{
 .person img{width:96px;height:96px}
 .muted{color:var(--muted)}
 .small{font-size:.85rem}
-.contact-form{display:flex;flex-direction:column;gap:.5rem;max-width:560px}
-.contact-form input,.contact-form textarea{padding:.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
 .form-actions{display:flex;gap:.5rem;margin-top:.5rem}
 .site-footer{padding:1.25rem 0;border-top:1px solid rgba(255,255,255,0.02);margin-top:2rem}
 
