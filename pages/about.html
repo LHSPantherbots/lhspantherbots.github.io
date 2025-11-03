@@ -3,39 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="assets/image.png" style="width:72px;height:auto;" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="subteams.html">Sub-Teams</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="../index.html">
+                <img src="assets/image.png" alt="LHS PantherBots logo" class="logo" style="width:72px;height:auto;" />
+                <span class="brand-text">LHS PantherBots</span>
+            </a>
 
-    <main>
-        <section class="about-section">
-            <h1>About Us</h1>
-            <div class="about-content">
-                <p>Welcome to our page! We are...</p>
-                <!-- Add your about content here -->
-            </div>
-        </section>
+      <nav class="nav" id="nav">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="subteams.html">Sub-Teams</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+        </ul>
+      </nav>
 
-        <section class="team-section">
-            <h2>Our Team</h2>
-            <div class="team-members">
-                <!-- Add team member information here -->
-            </div>
-        </section>
-    </main>
+      <div class="header-actions">
+        <button id="themeToggle" class="btn btn-ghost" aria-pressed="false">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+     <section class="about-section">
+         <h1>About Us</h1> <div class="about-content">
+             <p>Welcome to our page! We are...</p> <!-- Add your about content here --> </div> </section>
+        <h1>Social Media</h1> <div class="about-content">
+          <li><a href="https://www.instagram.com/lhspantherbots2582/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <li><a href="https://www.facebook.com/2582pantherbots/" target="_blank" rel="noopener noreferrer">facebook</a>
+          <li><a href="https://www.youtube.com/channel/UC3ji-ahmRHE-VJXU-AVh2TQ" target="_blank" rel="noopener noreferrer">youtube</a>
+          <li><a href="https://www.youtube.com/@chadr03" target="_blank" rel="noopener noreferrer">youtube-chad-</a>
+          <li><a href="http://lufkinpantherbots.com/" target="_blank" rel="noopener noreferrer">P.R's website-</a>
+
+
 
     <footer>
         <p>&copy; 2025 LHS PantherBots. All rights reserved.</p>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>

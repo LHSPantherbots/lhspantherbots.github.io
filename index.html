@@ -20,9 +20,8 @@
         <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
         <ul id="navMenu" class="nav-menu">
           <li><a href="pages/about.html">About</a></li>
-          <li><a href="#projects">Projects</a></li>
           <li><a href="pages/subteams.html">Sub-Teams</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="pages/sponsors.html">Sponsors</a></li>
         </ul>
       </nav>
 
@@ -47,30 +46,8 @@
       </div></div>
     </section>
 
-    <section id="projects" class="section alt">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="grid">
-          <article class="card">
-            <h3>Competition Bot</h3>
-            <p>High-speed drivetrain and vision-guided mechanisms. Built with modular subsystems so students can iterate quickly.</p>
-          </article>
-
-          <article class="card">
-            <h3>Community Outreach</h3>
-            <p>Workshops and demos for local middle schools and STEM fairs — teaching basics of programming and engineering.</p>
-          </article>
-
-          <article class="card">
-            <h3>Roadmap</h3>
-            <p>Next up: expanding our simulation tools and CI for robot code. Join to help design and test new features.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <section id="team" class="section container">
-      <h2>Team</h2>
+      <h2>Team Members</h2>
       <p>Students from all grades. Mentors and alumni help run workshops and coach for competitions.</p>
       <div class="team-grid">
         <figure class="person">
@@ -91,28 +68,6 @@
       </div>
     </section>
 
-    <section id="contact" class="section alt container">
-      <h2>Contact</h2>
-      <p>Want to join or collaborate? Fill this form and we'll get back to you.</p>
-
-      <form class="contact-form" onsubmit="handleContactSubmit(event)">
-        <label for="name">Name</label>
-        <input id="name" name="name" required />
-
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <div class="form-actions">
-          <button class="btn btn-primary" type="submit">Send</button>
-          <button class="btn btn-ghost" type="reset">Reset</button>
-        </div>
-
-        <p class="form-note muted">This form does not send messages by itself — configure a backend or use a form provider (Netlify Forms, Formspree, etc.).</p>
-      </form>
-    </section>
   </main>
 
   <footer class="site-footer">

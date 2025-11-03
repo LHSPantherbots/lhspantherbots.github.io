@@ -39,18 +39,5 @@ themeToggle && themeToggle.addEventListener('click', () => {
   }
 })();
 
-// Contact form handler (no network)
-function handleContactSubmit(e){
-  e.preventDefault();
-  const form = e.target;
-  const name = form.name.value.trim();
-  const email = form.email.value.trim();
-  const message = form.message.value.trim();
-  if(!name || !email || !message){
-    alert('Please complete all fields');
-    return;
-  }
-  // Provide user feedback — user can copy details or use configured backend
-  alert('Thanks ' + name + '! This form is a demo. Configure a form backend to receive messages.');
-  form.reset();
-}
+
+
